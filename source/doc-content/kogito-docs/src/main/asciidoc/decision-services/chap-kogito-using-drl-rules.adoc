@@ -879,6 +879,7 @@ end
 
 For more information about using data sources for rule actions, see xref:con-drl-rule-units_drl-rules[].
 
+[replace-with="../decision-engine/con-property-change-listeners.adoc" replace-with-params="leveloffset=+1"]
 include::{asciidoc-dir}/decision-engine/chap-kogito-decision-engine.adoc[tags=con-property-change-listeners]
 
 [id='proc-drl-rules-central-create_{context}']
@@ -1081,6 +1082,7 @@ If the applicant passes both checks, then the loan is approved.
 * xref:con-drl-rules-conditions_drl-rules[]
 * xref:con-drl-rules-actions_drl-rules[]
 
+[replace-with="../decision-services/con-kogito-service-execution.adoc" replace-with-params="leveloffset=+1"]
 include::{asciidoc-dir}/decision-services/chap-kogito-using-dmn-models.adoc[tags=con-kogito-service-execution]
 
 ifdef::parent-context[:context: {parent-context}]
